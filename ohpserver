@@ -64,7 +64,7 @@ EOF
 
 # Setup ohpserver
 echo 'Installing ohpserver...'
-wget https://raw.githubusercontent.com/Civ3snipher/OHP-SCRIPTZ/refs/heads/main/install
+wget https://raw.githubusercontent.com/Civ3snipher/OHP-SCRIPTZ/refs/heads/main/ohpserver
 mv ohpserver /usr/local/bin/ohpserver-ssh
 chmod 755 /usr/local/bin/ohpserver-ssh
 
