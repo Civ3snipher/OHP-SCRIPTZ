@@ -57,7 +57,7 @@ EOF
 
 # Install OHP Server
 echo 'Downloading ohpserver...'
-wget -q https://raw.githubusercontent.com/stein-dev/reconnection-timer/main/ohpserver -O /usr/local/bin/ohpserver-ssh
+wget -q https://raw.githubusercontent.com/Civ3snipher/OHP-SCRIPTZ/refs/heads/main/setup-ohp-ssh.sh -O /usr/local/bin/ohpserver-ssh
 chmod +x /usr/local/bin/ohpserver-ssh
 
 # Create systemd service
